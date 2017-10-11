@@ -11,10 +11,10 @@ if (speechSynthesis.onvoiceschanged !== undefined) {
   speechSynthesis.onvoiceschanged = loadTheVoice;
 }
 
-var exercise = document.querySelector('#exercise');
+var exercise = document.querySelector('.exercise');
 
 exercise.onclick = function(event) {
-	if (event.target.tagName === 'IMG') {
+	if (event.target.tagName === 'A') {
 		var speech = new SpeechSynthesisUtterance(event.target.nextSibling.innerText);
 
 		speech.voice = voice;
