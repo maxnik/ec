@@ -17,12 +17,14 @@ a {
   color: #e81c4f;
 }
 
-.exercise a {
-	margin-left: 0.5rem;
-	margin-right: 0.3rem;
-	cursor: pointer;
+.exercise button {
+	margin-right: 0.2rem;
+  border: 1px #e81c4f solid;
+	border-radius: 8px;
+  background-color: #fff;
+  padding: 0 0.3rem;
 }
 
-.exercises, .exercise {
+.exercises, .exercise, .exercise button {
 	font-size: 1.5rem;
 }

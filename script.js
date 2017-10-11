@@ -14,7 +14,7 @@ if (speechSynthesis.onvoiceschanged !== undefined) {
 var exercise = document.querySelector('.exercise');
 
 exercise.onclick = function(event) {
-	if (event.target.tagName === 'A') {
+	if (event.target.tagName === 'BUTTON') {
 		var speech = new SpeechSynthesisUtterance(event.target.nextSibling.innerText);
 
 		speech.voice = voice;
