@@ -1,5 +1,28 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  line-height: 1.5;
+  padding: 1em;
+  color: #555;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+a {
+  color: #e81c4f;
+}
+
 .exercise a {
 	margin-left: 0.5rem;
 	margin-right: 0.3rem;
 	cursor: pointer;
+}
+
+.exercises, .exercise {
+	font-size: 1.5rem;
 }
