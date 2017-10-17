@@ -26,11 +26,35 @@ a {
   padding: 0 0.3rem;
 }
 
-.exercises, .exercise, .exercise button {
+.exercises, .exercise p, .exercise button {
   font-size: 1.5rem;
 }
 
 blockquote {
   background-color: #eee;
   margin: 0;
+}
+
+* {
+  /* So 100% means 100% */
+  box-sizing: border-box;
+}
+html, body {
+  /* Make the body to be as tall as browser window */
+  height: 100%;
+}
+
+.video-with-transcript {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header-for-exercise {
+  flex: none;
+}
+
+.transcript {
+  flex: 1;
+  overflow-y: scroll;
 }
