@@ -58,3 +58,7 @@ html, body {
   flex: 1;
   overflow-y: scroll;
 }
+
+img {
+  max-width: 100%;
+}
