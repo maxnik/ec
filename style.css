@@ -59,6 +59,11 @@ html, body {
   overflow-y: scroll;
 }
 
-img {
+img, audio::-webkit-media-controls-enclosure {
   max-width: 100%;
+}
+
+audio {
+  display: block;
+  width: 100%;
 }
