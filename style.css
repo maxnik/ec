@@ -26,7 +26,7 @@ a {
   padding: 0 0.3rem;
 }
 
-.exercises, .exercise p, .exercise li, .exercise button {
+.exercises, .exercise p, .exercise li, .exercise button, table.grammar {
   font-size: 1.5rem;
 }
 
@@ -66,4 +66,19 @@ img, audio::-webkit-media-controls-enclosure {
 audio {
   display: block;
   width: 100%;
+}
+
+table.grammar {
+  border-collapse: collapse;
+}
+
+table.grammar td {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+table.grammar ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
