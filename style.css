@@ -42,6 +42,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+.exercises li {
+  margin-bottom: 1rem;
+}
+
 blockquote {
   background-color: #eee;
   margin: 0;
