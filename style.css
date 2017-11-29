@@ -49,6 +49,7 @@ h3 {
 blockquote {
   background-color: #eee;
   margin: 0;
+  padding: 0 0.5rem;
 }
 
 * {
