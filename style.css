@@ -39,7 +39,7 @@ h3 {
   margin-bottom: 0;
 }
 
-.exercises, .exercise p, .exercise li, .exercise button, table.grammar, h3, blockquote {
+.exercises, .exercise p, .exercise li, .exercise button, table.grammar, h3, blockquote, input[type="text"], textarea {
   font-size: 1.5rem;
 }
 
@@ -98,4 +98,17 @@ table.grammar ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  width: 6em;
+  color: #566b78;
+  background-color: #eee;
+}
+
+textarea {
+  width: 100%;
+  color: #566b78;
+  padding: 0 0.5rem;
 }
